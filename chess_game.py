@@ -31,14 +31,14 @@ pieces = {
     'rookB': py.image.load('chessphoto/rookB.png'),
 }
 chess_Board = {
-    (0,0): 'rookB', (1,0): 'knightB', (2,0): 'bishopB', (3,0): 'kingB',
-    (4,0): 'queenB', (5,0): 'bishopB', (6,0): 'knightB', (7,0): 'rookB',
+    (0,0): 'rookB', (1,0): 'knightB', (2,0): 'bishopB', (3,0): 'queenB',
+    (4,0): 'kingB', (5,0): 'bishopB', (6,0): 'knightB', (7,0): 'rookB',
     (0,1): 'pawnB', (1,1): 'pawnB', (2,1): 'pawnB', (3,1): 'pawnB',
     (4,1): 'pawnB', (5,1): 'pawnB', (6,1): 'pawnB', (7,1): 'pawnB',
     (0,6): 'pawnW', (1,6): 'pawnW', (2,6): 'pawnW', (3,6): 'pawnW',
     (4,6): 'pawnW', (5,6): 'pawnW', (6,6): 'pawnW', (7,6): 'pawnW',
-    (0,7): 'rookW', (1,7): 'knightW', (2,7): 'bishopW', (3,7): 'kingW',
-    (4,7): 'queenW', (5,7): 'bishopW', (6,7): 'knightW', (7,7): 'rookW'
+    (0,7): 'rookW', (1,7): 'knightW', (2,7): 'bishopW', (3,7): 'queenW',
+    (4,7): 'kingW', (5,7): 'bishopW', (6,7): 'knightW', (7,7): 'rookW'
 }
 
 def print_board():
